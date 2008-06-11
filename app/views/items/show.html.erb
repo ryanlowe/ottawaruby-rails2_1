@@ -1,0 +1,11 @@
+
+<p><%= link_to 'Edit', edit_item_path(@item) %> |
+<%= link_to 'Back', items_path %></p>
+
+<h1><%=h @item.name %></h1>
+
+<h2><%=h @item.media.titleize %></h2>
+
+<p><%=h @item.description %></p>
+
+<p>$ <%=h @item.price %>.00</p>
