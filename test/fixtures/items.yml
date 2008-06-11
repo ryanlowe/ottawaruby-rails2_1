@@ -1,0 +1,22 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+pickaxe3:
+  name: Programming Ruby 3rd Edition
+  media: book
+  description: Ruby is the fastest growing and most exciting dynamic language out there. If you need to get working programs delivered fast, you should add Ruby to your toolbox.
+  price: 25
+everyday1:
+  name: Everyday Active Record Episode 1
+  media: screencast
+  description: Designing Models with Associations
+  price: 5
+everyday2:
+  name: Everyday Active Record Episode 2
+  media: screencast
+  description: Finding and Scoping Models
+  price: 5
+git:
+  name: Git Internals
+  media: book
+  description: Explains the distributed filesystem behind Git
+  price: 9

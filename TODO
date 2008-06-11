@@ -20,7 +20,7 @@ http://www.nomedojogo.com/2008/06/09/new-free-book-ruby-on-rails-21-whats-new/
 - named_scope
 - attribute changes
 - partial updates
-    -- overwrite problems
+    -- validation problems
 - gem dependencies - config.gem
     -- gems:unpack
     -- gems:build (native)
@@ -31,7 +31,7 @@ http://www.nomedojogo.com/2008/06/09/new-free-book-ruby-on-rails-21-whats-new/
 - script plugin install with Git
 - dbconsole
 - Ruby 1.9 compatibility
-- protect_from_forgery
+* protect_from_forgery
 
 
 - pluggable controller caching
