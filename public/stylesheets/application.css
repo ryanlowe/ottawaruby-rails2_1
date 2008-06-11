@@ -1,0 +1,24 @@
+
+body, div, span, td, input, select, textarea, label { font-family:Arial;font-size:12pt; }
+
+/* page elements */
+
+ul.collapsed       { list-style:none;display:inline;padding:0;margin:0;position:relative; }
+  ul.collapsed li  { display:inline;padding:0;margin:0;position:relative; }
+ul.menu            {}
+  ul.menu li.first { border:0;padding:0; }
+  ul.menu li       { border-left:1px solid #ccc;padding:0px 0px 0px 0.5em; }
+  
+table.bordered        { border-collapse:collapse; }
+  table.bordered tr   {}
+    table.bordered th { border:1px solid #999;padding:0.25em 1em;background-color:#eee; }
+    table.bordered td { border:1px solid #999;padding:0.25em 1em; }
+    
+/* page structure */
+
+#page { position:relative; }
+
+#header  { margin-bottom:1em; }
+  #title { font-size:24pt;font-weight:bold; }
+
+  #flash { color:green;font-size:13pt;font-weight:bold;padding:0.5em 1em;background-color:#ffc; }

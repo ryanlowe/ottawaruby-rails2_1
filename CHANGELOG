@@ -1,4 +1,8 @@
 
 Jun 11
+- make a front page
+= remove default AJAX libraries and use Google's
+= add basic application layout and stylesheet
+= add Site controller
 = add Rails 2.1 project baseline
 = started project

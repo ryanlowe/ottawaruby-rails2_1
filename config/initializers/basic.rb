@@ -1,0 +1,1 @@
+SITE_NAME = 'ottawaruby Rails 2.1 demo'
