@@ -1,0 +1,48 @@
+
+=== Sources
+
+Ryan Daigle: Rails 2.1 Released - Summary of Features
+http://ryandaigle.com/articles/2008/6/2/rails-2-1-released-summary-of-features
+
+Ruby on Rails blog: Rails 2.1 Released
+http://weblog.rubyonrails.org/2008/6/1/rails-2-1-time-zones-dirty-caching-gem-dependencies-caching-etc
+
+Railscasts - Rails 2.1 episodes
+http://railscasts.com/tags/20
+
+Free Rails 2.1 Book - English Translation
+http://www.nomedojogo.com/2008/06/09/new-free-book-ruby-on-rails-21-whats-new/
+
+=== Rails 2.1
+
+- time zones
+- timestamped migrations
+- named_scope
+- attribute changes
+- partial updates
+    -- overwrite problems
+- gem dependencies - config.gem
+    -- gems:unpack
+    -- gems:build (native)
+    -- can unpack gems in vendor/plugins if it has an init.rb
+- anonymous scopes
+- has_one :through
+- rake rails:update - scripts, javascript, config files?
+- script plugin install with Git
+- dbconsole
+- Ruby 1.9 compatibility
+- protect_from_forgery
+
+
+- pluggable controller caching
+  - http://ryandaigle.com/articles/2007/12/19/what-s-new-in-edge-rails-pluggable-controller-caching
+  
+- read only relationships: has_many :reports, :readonly => true
+- Model.all, Model.first, Model.last
+
+- labels: <%= f.label :title %>
+          <%= label_tag 'name' %>
+          
+- turning sessions on and off in controllers:  session: off
+
+- routes recognition is re-implemented and faster (tree)
