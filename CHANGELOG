@@ -1,5 +1,8 @@
 
 Jun 11
+- show attribute edits on Item page
+= record attribute edits of Item
+= add Edit model
 = add ItemsController (scaffold)
 = add Item model
 = put Rails 2.1 in vendor/rails

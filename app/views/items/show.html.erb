@@ -9,3 +9,23 @@
 <p><%=h @item.description %></p>
 
 <p>$ <%=h @item.price %>.00</p>
+
+<% if @item.edits.size > 0 -%>
+<h2>Edits</h2>
+<table class="bordered">
+  <tr>
+    <th>Datetime</th>
+    <th>Attribute</th>
+    <th>New Value</th>
+    <th>Old Value</th>
+  </tr>
+<% for edit in @item.edits -%>
+  <tr>
+    <td><%=h edit.created_at %></td>
+    <td><%=h edit.attribute %></td>
+    <td><%=h edit.new_value %></td>
+    <td><%=h edit.old_value %></td>
+  </tr>
+<% end -%>
+</table>
+<% end -%>
