@@ -1,5 +1,6 @@
 
 Jun 11
+= put Rails 2.1 in vendor/rails
 - make a front page
 = remove default AJAX libraries and use Google's
 = add basic application layout and stylesheet
