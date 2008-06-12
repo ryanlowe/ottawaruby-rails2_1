@@ -20,7 +20,7 @@ http://www.nomedojogo.com/2008/06/09/new-free-book-ruby-on-rails-21-whats-new/
 - named_scope
 - attribute changes
 - partial updates
-    -- validation problems
+    -- validation problems!
 - gem dependencies - config.gem
     -- gems:unpack
     -- gems:build (native)
@@ -31,8 +31,20 @@ http://www.nomedojogo.com/2008/06/09/new-free-book-ruby-on-rails-21-whats-new/
 - script plugin install with Git
 - dbconsole
 - Ruby 1.9 compatibility
-* protect_from_forgery
+- protect_from_forgery
 
+  - MRI
+- New Ruby VMs/Interpreters
+  - YARV - all C
+    - fork: Apple employee: MacRuby - Objective C
+  - Rubinius - more Ruby, less C
+  - MagLev/Gemstone - Smalltalk VM (commercial, closed source)
+  - JRuby - Java VM
+  - IronRuby - .NET
+
+- Git!
+  -- Git Internals PDF
+  -- Linus Torvalds - presentation at Google about Git
 
 - pluggable controller caching
   - http://ryandaigle.com/articles/2007/12/19/what-s-new-in-edge-rails-pluggable-controller-caching
@@ -43,6 +55,8 @@ http://www.nomedojogo.com/2008/06/09/new-free-book-ruby-on-rails-21-whats-new/
 - labels: <%= f.label :title %>
           <%= label_tag 'name' %>
           
-- turning sessions on and off in controllers:  session: off
+- turning sessions on and off in controllers: session: off
 
 - routes recognition is re-implemented and faster (tree)
+
+  

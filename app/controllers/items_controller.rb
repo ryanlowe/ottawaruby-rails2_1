@@ -14,7 +14,7 @@ class ItemsController < ApplicationController
   # GET /items/1
   # GET /items/1.xml
   def show
-    @item = Item.find(params[:id])
+    @item = Item.find(params[:id], :include => :edits, :order => "edits.id DESC")
 
     respond_to do |format|
       format.html # show.html.erb

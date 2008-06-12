@@ -21,7 +21,7 @@
   </tr>
 <% for edit in @item.edits -%>
   <tr>
-    <td><%=h edit.created_at %></td>
+    <td><%= format_datetime(edit.created_at) %></td>
     <td><%=h edit.attribute %></td>
     <td><%=h edit.new_value %></td>
     <td><%=h edit.old_value %></td>

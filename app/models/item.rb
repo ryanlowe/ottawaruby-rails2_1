@@ -13,7 +13,20 @@ class Item < ActiveRecord::Base
   named_scope :reasonably_priced, :conditions => ["price >= ? AND price < ?", CHEAP_THRESHOLD, EXPENSIVE_THRESHOLD]
   named_scope :expensive, :conditions => ["price >= ?", EXPENSIVE_THRESHOLD]
   
+  # named_scope :available, :conditions => ["deleted_at IS NULL"]
+  # named_scope :deleted, :conditions => ["deleted_at IS NOT NULL"]
+  
   has_many :edits
+  
+  # def self.books
+  #   Item.find(:all, :conditions => ["media = 'book'"])
+  # end
+  # 
+  # def self.cheap_books
+  #   Item.with_scope(:conditions => ["price < 10"]) do
+  #     Item.find(:all, :conditions => ["media = 'book'"])
+  #   end
+  # end
   
   def after_save
     for a in changes.keys
